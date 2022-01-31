@@ -1,0 +1,177 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+  <!-- Put your site title here -->
+  <title>
+    EBERSOLD Evan | Portfolio
+  </title>
+
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#work" class="nav__link">Projet</a></li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">A propos de moi</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <!-- Replace the following name with your name -->
+          <span>EBERSOLD Evan</span>
+        </h1>
+        <!-- Put a small paragraph about yourself -->
+        <p>Etudiant en BTS SIO à la CCI</p>
+        <a href="#contact" class="btn btn--pink">Contacter moi</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ***** Work ***** -->
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>Mes Projets</h2>
+        <div class="work__boxes">
+
+          <!-- Each div with the work__box class is a project. -->
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Mon portfolio</h3>
+              <p>
+                Un portfolio créer pour le projet du 1er semestre de mon BTS SIO à la cci 
+              </p>
+              <ul class="work__list">
+                <li>HTML</li>
+                <li>SCSS</li>
+                <li>JavaScript</li>
+              </ul>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-1.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Application Mobile | trouver un film selon votre humeur</h3>
+              <p>
+                Une Application faite pendant le 4eme semestre de mon BTS SIO 
+              </p>
+              <ul class="work__list">
+                <li>ReactNative</li>
+              </ul>
+            </div>
+            <div class="work__image-box">
+              <img src="" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Station Blanche</h3>
+              <p>
+                Une station blanche faite dans le cadre de mon stage lors de mon cursus de mon BTS SIO
+              </p>
+              <ul class="work__list">
+                <li>Python</li>
+                <li>PyQT</li>
+                <li>Bash</li>
+              </ul>
+            </div>
+            <div class="work__image-box">
+              <img src="" class="work__image" alt="Project 3" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>A Propos de moi</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos id
+              nostrum illo harum blanditiis, tenetur eum suscipit cupiditate
+              in vel, ex quam quidem quos mollitia labore aut sunt eius
+              ratione molestiae fuga veniam facere similique voluptate.
+            </p>
+          </div>
+
+          <div class="about__photo-container">
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" src="./images/syed-ali-hussnain.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Contacter moi</h2>
+      <div class="contact__info">
+        <p>
+          Chercher vous à me contacter pour diverse projets ? N'hesiter pas
+         😊 le moyen le plus simple est par mail
+        </p>
+        <br/>
+        <br/>
+        <br/>
+        <!-- Replace the email with yours -->
+        <a href="mailto:evan.ebersold.sio20@gmail.com" class="btn">evan.ebersold.sio20@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://github.com/EvanEb/" title="Link to Github Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>  
+      </ul>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
+
+</html>
